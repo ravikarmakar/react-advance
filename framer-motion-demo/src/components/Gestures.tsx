@@ -26,7 +26,8 @@ const Gestures = () => {
 
 export default Gestures;
 
-const boxStyle = {
+// eslint-disable-next-line react-refresh/only-export-components
+export const boxStyle = {
   height: "250px",
   width: "250px",
   backgroundColor: "red",
