@@ -1,3 +1,25 @@
+/* eslint-disable react-refresh/only-export-components */
+// import { motion } from "framer-motion";
+// import RangeSlider from "./framer-hooks/RangeSlider";
+
+// import WaveEffect from "./keyframes/BoxEffect";
+
+// import SlidingText from "./keyframes/SlidingText";
+// import ZigzagAnimation from "./keyframes/ZigzagAnimation";
+
+// import ColorChangeSquare from "./keyframes/SquareColorChnage";
+
+// import PulsatingButton from "./keyframes/PulsatingButton";
+
+// import Accordion from "./project-components/Accordon";
+// import BouncingBall from "./keyframes/BouncingBall";
+// import ToastNotification from "./project-components/ToastNotification";
+// import Sidebar from "./project-components/Sidebar";
+
+// import DraggAbleBox from "./framer-hooks/DraggAbleBox";
+// import AnimationScroll from "./framer-hooks/AnimationScroll";
+// import ScrollAnimatin from "./framer-hooks/ScrollAnimatin";
+
 // // import BauncingLoader from "./components/BauncingLoader";
 // // import PulsingButton from "./components/PulsingButton";
 
@@ -33,8 +55,62 @@
 
 // export default App;
 
+// const App = () => {
+//   return (
+//     <div style={defaultStyle}>
+//       {/* <RangeSlider /> */}
+
+//       {/* <DraggAbleBox /> */}
+
+//       {/* <ScrollAnimatin /> */}
+
+//       <AnimationScroll />
+
+//       <div className="h-[400vh] tetx-black">
+//         <p className="text-black">scroll now</p>
+//       </div>
+//     </div>
+//   );
+// };
+
+// export default App;
+
+export const defaultStyle = {
+  display: "flex",
+  // height: "min-hight",
+  height: "100vh",
+  justifyContent: "center",
+  alignItems: "center",
+  backgroundColor: "black",
+  color: "white",
+};
+
+// export const boxStyle = {
+//   height: "200px",
+//   width: "200px",
+//   backgroundColor: "yellow",
+//   borderRadius: "50%",
+// };
+
+//  Projects here
+
 const App = () => {
-  return <div>Home Components</div>;
+  return (
+    <div style={defaultStyle}>
+      {/* <Sidebar /> */}
+      {/* <Accordion /> */}
+      {/* <ToastNotification /> */}
+
+      {/* KeyFrames */}
+
+      {/* <BouncingBall /> */}
+      {/* <PulsatingButton /> */}
+      {/* <ColorChangeSquare /> */}
+      {/* <SlidingText /> */}
+      {/* <ZigzagAnimation /> */}
+      {/* <WaveEffect /> */}
+    </div>
+  );
 };
 
 export default App;
