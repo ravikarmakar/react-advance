@@ -3,7 +3,14 @@
 // import PasswordGenerator from "./components/password-generator/PasswordGenerator";
 // import Meals from "./components/meals/Meals";
 // import FormBuilder from "./components/form-builder/FormBuilder";
-import TodoList from "./components/todo/TodoList";
+// import TodoList from "./components/todo/TodoList";
+
+import QuizLayout from "./components/quiz-app/QuizLayout";
+
+// import TaskPage from "./components/advance-tasklist/TaskPage";
+
+// Notes imports----------
+// import Notes from "./components/notes/Notes";
 
 const App = () => {
   return (
@@ -20,7 +27,13 @@ const App = () => {
 
       {/* <FormBuilder /> */}
 
-      <TodoList />
+      {/* <TodoList /> */}
+
+      {/* <Notes /> */}
+
+      {/* <TaskPage /> */}
+
+      <QuizLayout />
     </div>
   );
 };

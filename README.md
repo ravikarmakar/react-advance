@@ -86,3 +86,42 @@ const Example = () => {
 export default Example;
 
 
+# Zustand Practice Repository
+
+Welcome to my **Zustand Practice Repository**! 🚀 This repository contains multiple projects where I explore Zustand for state management in React applications.
+
+## 🔥 Why Zustand?
+Zustand is a fast and scalable state management library for React, providing a minimalistic and flexible API compared to Redux. Key features:
+- Simple API and easy to use.
+- No boilerplate code like reducers and actions.
+- Supports asynchronous state updates.
+- Works well with React and React Native.
+
+## 📁 Projects in this Repository
+
+### 1️⃣ Expense Tracker
+- A simple expense tracker with input field to adding expenses functionality.
+- Uses Zustand store to manage state globally.
+
+### 2️⃣ Todo List
+- Add, remove, and update tasks using Zustand.
+- Persistent state using local storage.
+
+### 3️⃣ Meals Search
+- Zustand-powered with meals search.
+- Uses Zustand's persistence feature.
+
+### Rest all...
+
+
+## 📚 Learning Resources
+- [Zustand Documentation](https://zustand-demo.pmnd.rs/)
+- [React Docs](https://reactjs.org/)
+
+## 🚀 Future Improvements
+- Implement API calls with Zustand for data fetching.
+- Add TypeScript support for better type safety.
+- Explore Zustand middleware for debugging and persistence.
+
+---
+Made with ❤️ by **Ravi Karmakar**. Happy coding! 🎯
